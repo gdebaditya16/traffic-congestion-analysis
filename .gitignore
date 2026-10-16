@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Project-specific files
+data/*.csv
+data/*.zip
+
+# Generated visualizations and temporary files
+*.html
+*.png
+*.jpg
+
+# Local environment and editor files
+.streamlit/config.toml
+.vscode/
