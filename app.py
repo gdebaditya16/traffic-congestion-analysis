@@ -428,7 +428,7 @@ else:
         deck = pdk.Deck(
             layers=[layer],
             initial_view_state=view_state,
-            map_style=None,
+            map_style="light",
             tooltip={
                 "html": (
                     "<b>Average speed:</b> "
